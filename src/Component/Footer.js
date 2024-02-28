@@ -9,13 +9,13 @@ function Footer() {
     return (
         <footer className='Footer'>
             <span>
-                <img src={Phone} alt="" style={{ width: '1.5rem' }} />
+                <img src={Phone} alt="phonelink" style={{ width: '1.5rem' }} />
                 <a href="/">TollFree: 1800-200-1234 </a></span>
             <span>
-                <img src={Facebook} alt="" style={{ width: '1.5rem' }} />
+                <img src={Facebook} alt="facebooklink" style={{ width: '1.5rem' }} />
                 <a href="/">www.Facebook.com/Cripumps</a></span>
             <span>
-                <img src={Internet} alt="" style={{ width: '1.5rem' }} />
+                <img src={Internet} alt="weblink" style={{ width: '1.5rem' }} />
                 <a href="/">www.crigroups.com</a></span>
 
         </footer>
