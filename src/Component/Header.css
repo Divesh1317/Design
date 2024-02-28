@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    gap: 14rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* Optional padding for better spacing */
+}
+.Image img{
+    height: auto;
+    width: 30rem;
+}
+
+.para {
+    width: 50%;
+    margin-top: 10px;
+
+
+    /* Adjust the max-width as needed */
+}
+h2{
+    font-size: 1.12rem;
+    word-spacing: 4px;
+}
+.para  ul li{
+    word-spacing: 2px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.paragraph{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.image img {
+    height: auto;
+    width: 50rem;
+    
+    /* You can add additional styles for the image if needed */
+}
+
+.next-para p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    margin-bottom: 1rem;
+}
+.next-image img{
+    width: 60%;
+}
+
+.next-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.next-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.next-heading h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.next-paragraph p{
+    font-size: 1rem;
+    font-weight: 600;
+    word-spacing: 2px;
+
+}
+hr{
+    width: 90%; /* Adjust the overall width */
+    height: 1px;
+    background-color: red;
+    border: none;
+    margin: 0 auto; /* Center the line horizontally */
+}
+span{
+    color: red;
+}
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+    .container {
+        gap: 2rem; /* Adjust the gap for smaller screens */
+    }
+
+    .Image img,
+    .image img,
+    .next-image img {
+        width: 100%; /* Make images take up 100% width on smaller screens */
+    }
+
+    .para,
+    h2,
+    .para ul li,
+    .paragraph,
+    .next-para p,
+    .next-heading,
+    .next-heading h2,
+    .next-paragraph p {
+        width: 100%; /* Make text take up 100% width on smaller screens */
+        margin-left: 0; /* Remove left margin for text */
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+@media only screen and (max-width: 400px) {
+    .container {
+        gap: 1rem; /* Adjust the gap for smaller screens */
+    }
+
+    .Image img,
+    .image img,
+    .next-image img {
+        width: 100%; /* Make images take up 100% width on smaller screens */
+    }
+
+    .para,
+    h2,
+    .para ul li,
+    .paragraph,
+    .next-para p,
+    .next-heading,
+    .next-heading h2,
+    .next-paragraph p {
+        width: 100%; /* Make text take up 100% width on smaller screens */
+        margin-left: 0; /* Remove left margin for text */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    hr {
+        width: 80%; /* Adjusted width for horizontal line on smaller screens */
+    }
+}

@@ -1,0 +1,24 @@
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem; 
+    margin: 1rem;
+    background-color: red;/* Add padding for additional spacing around the content */
+}
+
+.Footer span {
+    text-align: center; /* Optional: Align text in the center */
+    margin: 10px; /* Add space around each span element */
+}
+
+.Footer a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Set the color of the links */
+}
+
+/* Additional styling for images if needed */
+.Footer img {
+    margin-right: 5px; /* Add space to the right of each image */
+}
