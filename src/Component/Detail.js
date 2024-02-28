@@ -9,7 +9,7 @@ function Detail() {
         <>
             <div className="container">
                 <div className="Image">
-                    <img src={Trophy} alt="#" />
+                    <img src={Trophy} alt="trophy" />
                 </div>
                 <div className="para">
                     <h2>C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h2>
@@ -19,7 +19,7 @@ function Detail() {
                         </li>
                     </ul>
                     <div className="image">
-                        <img src={Picture} alt="#" />
+                        <img src={Picture} alt="price distribution" />
                     </div>
                     <div className="paragraph">
                         <p>Government of India has awarded the <strong>"National Energy Conservation Award 2018"</strong> . Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</p>
@@ -29,7 +29,7 @@ function Detail() {
             <div className="next-para">
                 <p>INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION. </p>
                 <div className="next-image">
-                    <img src={Photo} alt="Photo" />
+                    <img src={Photo} alt="tools" />
                 </div>
                 <p>Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors </p>
             </div>
