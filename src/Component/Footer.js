@@ -10,13 +10,13 @@ function Footer() {
         <footer className='Footer'>
             <span>
                 <img src={Phone} alt="" style={{ width: '1.5rem' }} />
-                <a href="#">TollFree:1800-200-1234 </a></span>
+                <a href="/">TollFree: 1800-200-1234 </a></span>
             <span>
                 <img src={Facebook} alt="" style={{ width: '1.5rem' }} />
-                <a href="www.facebook.com">www.Facebook.com/Cripumps</a></span>
+                <a href="/">www.Facebook.com/Cripumps</a></span>
             <span>
                 <img src={Internet} alt="" style={{ width: '1.5rem' }} />
-                <a href="www.crigroups.com">www.crigroups.com</a></span>
+                <a href="/">www.crigroups.com</a></span>
 
         </footer>
     )
